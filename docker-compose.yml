@@ -1,0 +1,9 @@
+version: "3"
+services:
+    solaredge:
+        build: .
+        image: jshank/solaredge
+        privileged: true
+        network_mode: "host"
+        volumes:
+            - "./data:/solaredge/data"
