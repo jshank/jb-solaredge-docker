@@ -4,6 +4,10 @@ This is still heavily a work in progress to better understand the
 process to capture data from the SolarEdge inverters using the pacakges from
 [jbuehl/solaredge](https://github.com/jbuehl/solaredge).
 
+I have a hard-wired Ethernet connection to the inverter and I'm 
+[mirroring](http://www.wfiltertutorial.com/EdgeSwitch_port_mirror/EdgeSwitch) 
+the traffic with my Ubiquiti EdgeSwitch to a dedicated port on my Linux server
+
 ## Lessons Learned
 
 * se2state.py requires an existing initialized json file for output. I think I
